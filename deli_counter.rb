@@ -9,8 +9,8 @@ def line(deli)
   else
     deli.each_with_index do |name, idx|
       arr << "#{idx + 1}. #{name}"
-      string = arr.join(" ")
     end
+    string = arr.join(" ")
     puts "The line is currently: " + string
   end
 end
