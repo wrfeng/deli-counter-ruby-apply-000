@@ -1,3 +1,5 @@
+counter = 1
+
 def line(deli)
   arr = []
   string = "" 
@@ -20,7 +22,9 @@ def take_a_number(array, name)
 end
 
 def take_a_number2(array)
-  
+  array << counter
+  puts "Welcome, you are number #{counter}."
+  counter += 1
 end
 
 def now_serving(deli)
