@@ -13,12 +13,14 @@ def line(deli)
   end
 end
 
-str += idx name 
-1.abraham2. bob 
 
 def take_a_number(array, name)
   array << name
   puts "Welcome, #{name}. You are number #{array.length} in line."
+end
+
+def take_a_number2(array)
+  
 end
 
 def now_serving(deli)
